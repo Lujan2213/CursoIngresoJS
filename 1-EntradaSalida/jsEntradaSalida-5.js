@@ -4,6 +4,8 @@ function mostrar()
 {	var nombre;
     var edad;
 
-	nombre=document.get
-}
+    nombre=document.getElementById("elNombre").value;
+    edad=document.getElementById("laEdad").value;
+    alert("mostrar el nombre"+nombre+"mostrar la edad"+edad);
 
+}
